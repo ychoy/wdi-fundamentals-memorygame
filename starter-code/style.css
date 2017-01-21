@@ -1,17 +1,16 @@
 nav {
 	background-color: #808080;
-	font-family: Arial, sans-serif;
 }
 
 a {
 	background-color: #ffbf00;
 	color: white;
+	text-decoration: none;
 	padding: 35px;
 	display: block;
 	float: left;
 
 }
-
 
 .clearfix:after {
  	visibility: hidden;
@@ -35,9 +34,8 @@ body {
 
 .board {
 	display: inline-block;
-	height: 50%;
+	height: 80%;
 	width: 50%;
-	color: #b4f634;
 }
 
 .card {
@@ -45,7 +43,7 @@ body {
 	height: 200px;
 	border: 1px solid black;
 	border-radius: 10px;
-	background: #ffd700;
+	background-color: #ffd700;
 	float: left;
 	margin: 8%;
 }
@@ -56,12 +54,23 @@ body {
 
 h1 {
 	color: rgb(2, 132, 130);
+	text-align: center;
 }
 
 h2 {
 	color: #ffd700;
+	text-align: center;
 }
 
+p {
+  text-align: center;
+}
 footer {
 	background-color: #808080;
+	text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 150px;
 }
