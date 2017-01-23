@@ -133,4 +133,19 @@ var board = document.getElementById('game-board');
 let kansasCityShuffle = shuffle(cards)
 createBoard(kansasCityShuffle);
 
+/* When button is selected, it will callback the shuffle function
+ */
+
 findCards();
+coverCards();
+
+document.getElementById("myBtn").addEventListener("click", function() {
+  let shuffled = shuffle(cards);
+  let cardsInPlay = [];
+
+  clearBoard();
+  createBoard(shuffled);
+
+  alert("Good luck!");
+});
+
